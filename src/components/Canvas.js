@@ -1,8 +1,7 @@
 // src/components/Canvas.js
 import React, { useState } from "react";
-import { ResizableBox } from "react-resizable";
-import { DndProvider, useDrag, useDrop } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
+import { useDrop } from "react-dnd";
+
 import Card from "./Card";
 const Canvas = () => {
   const [cards, setCards] = useState([]);
